@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>隐私政策</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", sans-serif;
+            max-width:820px;
+            margin:32px auto;
+            padding:0 16px;
+            line-height:1.75;
+            color:#222;
+        }
+        h1 {font-size:2rem;}
+        h2 {font-size:1.4rem;margin-top:2em;}
+        h3 {font-size:1.15rem;margin-top:1.4em;}
+        table {border-collapse:collapse;width:100%;margin:16px 0;}
+        td,th {border:1px solid #ccc;padding:10px;}
+        strong {font-weight:bold;}
+        a {color:#0066cc;}
+    </style>
+</head>
+<body>
+<h1>隐私政策</h1>
+<p>生效日期：2026年8月21日</p>
+<p><strong>龙虾Ai 不运营任何服务器，不会收集、存储、传输或处理你的任何个人数据。你的所有数据都保存在你的设备本地。本政策将说明当你选择接入第三方AI服务商时的数据流向。</strong></p>
+
+<h2>1. 概述</h2>
+<p>龙虾Ai 是一款完全在你的设备本地运行的AI助手App。你可以接入自己的AI服务商账号（例如 Anthropic、OpenAI、谷歌Gemini、OpenRouter或者自定义API接口）实现AI对话。Minis仅作为客户端：请求会从你的设备直接发送到你选定的服务商，并展示返回结果。</p>
+
+<h2>2. 我们收集的数据</h2>
+<p><strong>无。</strong></p>
+<p>Minis不会收集任何个人数据。我们没有后端服务器、统计分析服务、崩溃上报工具以及任何后台基础设施。我们无法访问你的对话记录、文件、API密钥，以及设备上的其他任何数据。</p>
+
+<h2>3. 存储在你设备本地的数据</h2>
+<p>以下所有数据仅在你的设备上生成并保存：</p>
+<ul>
+<li><strong>对话会话与消息</strong> — 你和AI服务商的聊天历史</li>
+<li><strong>附件文件</strong> — 对话中上传的文件、图片、文档</li>
+<li><strong>API凭证</strong> — API密钥、OAuth令牌，保存在iOS钥匙串中</li>
+<li><strong>App偏好设置</strong> — 你的各项配置选项</li>
+<li><strong>技能与记忆</strong> — 你自定义的AI指令、会话上下文</li>
+<li><strong>日志文件</strong> — 本地诊断日志，供你自行排查问题</li>
+</ul>
+<p>你可以随时在App内删除以上任意数据，也可以直接卸载App清除全部数据。</p>
+
+<h2>4. 向第三方AI服务商共享的数据</h2>
+<p>当你配置并使用某个AI服务商进行对话，下面的数据会<strong>直接从你的设备</strong>发送至该服务商服务器，用来生成AI回复：</p>
+<ul>
+<li>当前会话的聊天消息与对话历史</li>
+<li>你在对话里上传的文件、图片、文档</li>
+<li>你通过iOS权限明确授权的系统信息（日历、健康数据、联系人、位置等），仅在使用智能代理功能时才会发送</li>
+</ul>
+<p><strong>重要提示：</strong> 数据由你的设备直传给第三方服务商，不会经过Minis的任何服务器。我们看不到、访问不到，也不会保存这些数据。</p>
+
+<h3>支持的第三方AI服务商</h3>
+<table>
+<thead>
+<tr>
+<th>服务商</th>
+<th>隐私政策地址</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Anthropic（Claude）</td>
+<td><a href="https://anthropic.com/legal/privacy">anthropic.com/legal/privacy</a></td>
+</tr>
+<tr>
+<td>OpenAI（GPT、o系列）</td>
+<td><a href="https://openai.com/policies/privacy-policy">openai.com/policies/privacy-policy</a></td>
+</tr>
+<tr>
+<td>Google（Gemini）</td>
+<td><a href="https://policies.google.com/privacy">policies.google.com/privacy</a></td>
+</tr>
+<tr>
+<td>OpenRouter</td>
+<td><a href="https://openrouter.ai/privacy">openrouter.ai/privacy</a></td>
+</tr>
+<tr>
+<td>自定义接口</td>
+<td>遵循对应服务商自身隐私政策</td>
+</tr>
+</tbody>
+</table>
+<p>你可以自由选择使用哪一家服务商，也可以随时移除服务商以及保存的密钥凭证。每家服务商各自的隐私政策，决定它们如何处理接收到的数据。</p>
+
+<h2>5. 敏感数据</h2>
+<h3>健康数据（HealthKit）</h3>
+<p>如果你授予HealthKit权限，AI代理可以读取/写入你的健康数据（步数、心率、睡眠记录、运动记录等）。当你主动使用健康相关代理功能时，健康数据才会发送给你选择的AI服务商。健康数据绝不会用于广告、营销、数据挖掘，除了你选定的服务商之外不会泄露给任何第三方。</p>
+
+<h3>联系人、日历、提醒事项</h3>
+<p>授权权限后，AI代理可以读取和管理你的联系人、日历日程、提醒事项。只有你主动调用对应代理功能时，该类数据才会发送给选定AI服务商。</p>
+
+<h3>位置信息</h3>
+<p>开启位置权限后，可记录会话发起位置（仅本地存储），维持后台代理任务运行。<strong>只有你对话里主动请求位置相关内容时</strong>，位置信息才会发给AI服务商。</p>
+
+<h3>相机、麦克风、照片库</h3>
+<p>相机权限用于拍照上传对话；麦克风用于语音转文字；照片库用于插入或保存图片。媒体资源只有被你加入对话的时候，才会发送AI服务商。</p>
+
+<h2>6. iCloud同步</h2>
+<p>如果你开启iCloud同步，对话记录、记忆库、技能配置会通过苹果CloudKit在你的多设备之间同步。数据传输与存储遵守<a href="https://www.apple.com/privacy/">苹果隐私政策</a>。Minis无法访问你的iCloud数据。</p>
+
+<h2>7. 追踪与统计分析</h2>
+<p>Minis不会对你进行追踪。没有集成任何统计SDK、广告框架、崩溃上报或者其他追踪组件。不会采集设备标识、使用行为统计数据。</p>
+
+<h2>8. 儿童隐私</h2>
+<p>本App面向对象不是17岁以下未成年人。我们本身不会主动收集任何人的数据，其中也包括儿童。</p>
+
+<h2>9. 数据留存与删除</h2>
+<p>全部数据保存在你的本地设备，完全由你掌控：</p>
+<ul>
+<li>在App内删除单条对话会话</li>
+<li>在设置里清除服务商密钥凭证</li>
+<li>卸载App清除全部应用数据</li>
+</ul>
+<p>已经发送给第三方AI服务商的数据，请查阅对应服务商隐私政策，了解他们的数据留存和删除规则。</p>
+
+<h2>10. 本政策修订</h2>
+<p>我们会不定期更新这份隐私政策。修改后的版本会发布在本页面，并更新生效日期。继续使用App即代表接受更新后的隐私政策。</p>
+
+<h2>11. 联系我们</h2>
+<p>如有隐私政策相关疑问，请联系：</p>
+<p>邮箱：<a href="mailto:dev@openminis.me">dev@openminis.me</a></p>
+<p>GitHub：<a href="https://github.com/OpenMinis">github.com/OpenMinis</a></p>
+</body>
+</html>
